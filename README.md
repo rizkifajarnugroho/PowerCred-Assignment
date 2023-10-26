@@ -7,9 +7,10 @@ This repo contains all of the credit risk assessment development
 # 🏃 Running the Prediction Service
 Run the command below to start the service.
 ```shell
-$ python app.py
+$ python app.py```
 
-# PowerCred-Assignment
+# Sample cURL for Testing
+```
 curl --location 'http://127.0.0.1:8001/predict/' \
 --header 'accept: application/json' \
 --header 'Content-Type: application/json' \
@@ -18,4 +19,4 @@ curl --location 'http://127.0.0.1:8001/predict/' \
   "Balance": 3.5,
   "Date": "2023-10-27",
   "Type": "DEBIT"
-}'
+}'```
