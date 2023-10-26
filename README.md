@@ -18,5 +18,5 @@ curl --location 'http://127.0.0.1:8001/predict/' \
 # 🏃 Running the Prediction Service
 Run the command below to start the service.
 ```shell
-$ python app.py```
+$ python app.py
 
