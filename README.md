@@ -9,3 +9,13 @@ Run the command below to start the service.
 ```shell
 $ python app.py
 
+# Sample cURL for the Service
+curl --location 'http://127.0.0.1:8001/predict/' \
+--header 'accept: application/json' \
+--header 'Content-Type: application/json' \
+--data '{
+  "Amount": 5.1,
+  "Balance": 3.5,
+  "Date": "2023-10-27",
+  "Type": "DEBIT"
+}'
