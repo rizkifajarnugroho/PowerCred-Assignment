@@ -9,7 +9,7 @@ Run the command below to start the service.
 ```shell
 $ python app.py
 
-# Sample cURL for the Service
+# PowerCred-Assignment
 curl --location 'http://127.0.0.1:8001/predict/' \
 --header 'accept: application/json' \
 --header 'Content-Type: application/json' \
